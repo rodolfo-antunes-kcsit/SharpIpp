@@ -21,7 +21,7 @@ namespace SharpIpp.Mapping.Profiles
 
                 if (src.Limit != null)
                 {
-                    operation.Add(new IppAttribute(Tag.Integer, "requesting-user-name", src.Limit.Value));
+                    operation.Add(new IppAttribute(Tag.Integer, "limit", src.Limit.Value));
                 }
 
                 if (src.FirstPrinterName != null)
